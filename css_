@@ -1,0 +1,99 @@
+/* Extra small (XS) portrait */
+@media (max-width: 479px) and (orientation: portrait) {
+  body {
+    font-size: 14px;
+  }
+  .content {
+    width: 80%;
+  }
+}
+
+/* Extra small (XS) landscape */
+@media (max-width: 479px) and (orientation: landscape) {
+  body {
+    font-size: 14px;
+  }
+  .content {
+    width: 60%;
+  }
+}
+
+/* Small (S) portrait */
+@media (max-width: 767px) and (orientation: portrait) {
+  body {
+    font-size: 16px;
+  }
+  .content {
+    width: 90%;
+  }
+}
+
+/* Small (S) landscape */
+@media (max-width: 767px) and (orientation: landscape) {
+  body {
+    font-size: 16px;
+  }
+  .content {
+    width: 70%;
+  }
+}
+
+/* Medium (M) portrait */
+@media (max-width: 991px) and (orientation: portrait) {
+  body {
+    font-size: 18px;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+/* Medium (M) landscape */
+@media (max-width: 991px) and (orientation: landscape) {
+  body {
+    font-size: 18px;
+  }
+  .content {
+    width: 80%;
+  }
+}
+
+/* Large (L) portrait */
+@media (max-width: 1199px) and (orientation: portrait) {
+  body {
+    font-size: 20px;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+/* Large (L) landscape */
+@media (max-width: 1199px) and (orientation: landscape) {
+  body {
+    font-size: 20px;
+  }
+  .content {
+    width: 90%;
+  }
+}
+
+/* Extra large (XL) portrait */
+@media (min-width: 1200px) and (orientation: portrait) {
+  body {
+    font-size: 22px;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+/* Extra large (XL) landscape */
+@media (min-width: 1200px) and (orientation: landscape) {
+  body {
+    font-size: 22px;
+  }
+  .content {
+    width: 100%;
+  }
+}
