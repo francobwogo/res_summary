@@ -393,11 +393,6 @@ span {
     width: 100%;
   }
 
-  .score,
-  .summary {
-    height: 100%;
-  }
-
   .score-0 {
     padding-bottom: 20px;
   }
