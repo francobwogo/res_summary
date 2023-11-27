@@ -346,10 +346,15 @@ span {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     height: 100%;
     width: 100%;
+  }
+
+  .score,
+  .summary {
+    height: auto;
   }
 
   .score-0 {
@@ -385,7 +390,7 @@ span {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     height: 100%;
     width: 100%;
@@ -398,6 +403,11 @@ span {
   .score-3 {
     padding-bottom: 20px;
     padding-top: 20px;
+  }
+
+  .score,
+  .summary {
+    height: auto;
   }
 
   .container,
@@ -423,8 +433,14 @@ span {
   .container {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     height: auto;
     width: auto;
+  }
+
+  .score,
+  .summary {
+    height: auto;
   }
 
   .score-0 {
@@ -459,6 +475,7 @@ span {
   .container {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     height: auto;
     width: auto;
   }
@@ -470,6 +487,11 @@ span {
   .score-3 {
     padding-bottom: 20px;
     padding-top: 20px;
+  }
+
+  .score,
+  .summary {
+    height: auto;
   }
 
   .container,
