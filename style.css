@@ -121,7 +121,11 @@ span {
 
 .container {
   background-color: var(--clr-neutral-100);
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: auto;
+  width: auto;
 }
 
 .score {
@@ -290,8 +294,8 @@ span {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
   }
 
   .score-4 {
@@ -317,8 +321,8 @@ span {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
   }
 
   .score-4 {
@@ -344,8 +348,10 @@ span {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    height: auto;
-    width: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 
   .score-0 {
@@ -383,8 +389,13 @@ span {
     gap: 10px;
     align-items: center;
     justify-content: center;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  .score,
+  .summary {
+    height: 100%;
   }
 
   .score-0 {
