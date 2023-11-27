@@ -278,7 +278,34 @@ span {
 }
 
 /* Extra small (XS) */
-@media (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 450px) {
+  :root {
+    --fs-800: 3rem;
+    --fs-700: 1.75rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .score-4 {
+    width: 90%;
+  }
+
+  .score-5 {
+    width: 6em;
+    height: 6em;
+  }
+}
+
+/* Extra small (XS) */
+@media (min-width: 451px) and (max-width: 600px) {
   :root {
     --fs-800: 3.5rem;
     --fs-700: 2rem;
@@ -296,6 +323,11 @@ span {
 
   .score-4 {
     width: 90%;
+  }
+
+  .score-5 {
+    width: 7em;
+    height: 7em;
   }
 }
 
