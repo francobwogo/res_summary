@@ -124,8 +124,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
-  width: auto;
 }
 
 .score {
@@ -294,8 +292,8 @@ span {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
   }
 
   .score-4 {
@@ -321,8 +319,8 @@ span {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
   }
 
   .score-4 {
