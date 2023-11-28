@@ -6,7 +6,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshot](Frontend Mentor Results summary component.png)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
