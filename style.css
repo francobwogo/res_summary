@@ -273,10 +273,6 @@ span {
 
 /* Extra small (XS) - Large (L) */
 @media (min-width: 600px) and (max-width: 950px) {
-  html {
-    height: 100%;
-  }
-  
   .container {
     flex-direction: row;
     gap: 30px;
