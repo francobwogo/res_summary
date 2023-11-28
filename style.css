@@ -69,7 +69,7 @@ html:focus-within {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: var(--clr-neutral-200);
+  background-color: var(--clr-neutral-100);
   font-family: var(--ff-body);
 }
 
@@ -210,7 +210,7 @@ span {
 }
 
 .continue {
-  padding: 32px;
+  padding-top: 32px;
   text-align: center;
 }
 
@@ -271,11 +271,16 @@ span {
   width: 100%;
 }
 
+.btn-continue:hover {
+  background-color: var(--clr-primary-400);
+}
+
 /* Extra small (XS) - Large (L) */
 @media (min-width: 600px) and (max-width: 950px) {
   .container {
     flex-direction: row;
     gap: 30px;
+    box-shadow: 10px 10px 20px var(--clr-neutral-200);
   }
 
   .container,
@@ -294,6 +299,7 @@ span {
     flex-direction: row;
     gap: 30px;
     width: 100%;
+    box-shadow: 10px 10px 20px var(--clr-neutral-200);
   }
 
   .container,
@@ -312,6 +318,7 @@ span {
     flex-direction: row;
     gap: 30px;
     width: 100%;
+    box-shadow: 10px 10px 20px var(--clr-neutral-200);
   }
 
   .container,
