@@ -281,6 +281,7 @@ span {
     flex-direction: row;
     gap: 30px;
     box-shadow: 10px 10px 20px var(--clr-neutral-200);
+    margin: 5px;
   }
 
   .container,
@@ -300,6 +301,7 @@ span {
     gap: 30px;
     width: 100%;
     box-shadow: 10px 10px 20px var(--clr-neutral-200);
+    margin: 5px;
   }
 
   .container,
@@ -319,6 +321,7 @@ span {
     gap: 30px;
     width: 100%;
     box-shadow: 10px 10px 20px var(--clr-neutral-200);
+    margin: 5px;
   }
 
   .container,
